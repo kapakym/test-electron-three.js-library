@@ -1,0 +1,35 @@
+
+
+html, body {
+    height: 99%;
+    overflow: hidden;
+    
+}
+div.main {
+    display: flex;
+    flex-direction: column;
+    background-color: teal;
+    height: 98vh;
+}
+
+
+div.content {
+    overflow: auto;
+    flex: 1;
+    flex-grow: 1;
+    background-color: slategray;
+}
+
+
+div.menu {
+    background-color: blue;
+    color: white;
+    /* height: 100px; */
+}
+
+#canvas {
+    /* flex: 1; */
+	display: block;
+    height: 100%;
+    width: 100%;
+}
